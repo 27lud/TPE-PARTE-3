@@ -48,28 +48,9 @@ Se podra cambiar la cantidad de bicicletas a mostrar por página.
 
 Ejemplo: http://localhost/TPE-PARTE-3/api/bikes?page=1&per_page=8
 
+## POST
 
-### Integrantes: 
-Manuel Díaz y Ludmila Argüello
-
-
-
-
-
-
-
-GET /bikes/ID 
-
-Devuelve un objeto con todos sus atributos a partir de su ID pedido
-
-Ejemplo:http://localhost/TPE-PARTE-3/api/bikes/id
-
-
-
-
-POST /bikes
-
-Crea una nueva bicicleta 
+Crea una nueva bicicleta.
 
 Ejemplo: http://localhost/TPE-PARTE-3/api/bikes
 
@@ -81,9 +62,9 @@ Ejemplo: http://localhost/TPE-PARTE-3/api/bikes
     },
 
 
-PUT /bikes/ID
+## PUT 
 
-Edita una bicicleta tomando su id respectivo
+Edita una bicicleta tomando su id respectivo.
 
 Ejemplo:http://localhost/TPE-PARTE-3/api/bikes/id 
 
@@ -94,10 +75,12 @@ Ejemplo:http://localhost/TPE-PARTE-3/api/bikes/id
         "id_tipos_fk": 9
     },
 
+## DELETE 
 
-
-DELETE /bikes/ID
-
-Elimina una bicicleta completamente de la base de datos
+Elimina una bicicleta completamente de la base de datos.
 
 Ejemplo: http://localhost/TPE-PARTE-3/api/bikes/id
+
+### Integrantes: 
+
+Manuel Díaz y Ludmila Argüello
