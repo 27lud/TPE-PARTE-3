@@ -6,12 +6,11 @@
 
 - User/token:
   
-Se utiliza para obtener un Token de acceso para realizar consultas, para esto se necesita iniciar sesion en Basic Auth en la pestaña Authorization donde se tienen que completar los datos de usuario (webadmin) y contraseña (admin)
+Se utiliza para obtener un Token de acceso para realizar las accines de agregar y modificar, para esto en la aplicación Postman se dirigen al apartado "Authorization" e inician sesion en Basic Auth donde se tienen que completar los datos de usuario (webadmin) y contraseña (admin).
 
 Ejemplo: http://localhost/TPE-PARTE-3/api/user/token
 
-Si es correcto se te dara el token, luego vas a Bearer Token y pones el token (tiene un tiempo de vencimiento de 30 segundos)
-Si lo introduciste bien vas a poder hacer las modificaciones (CRUD) que quieras.
+Si es correcto se te dara el token, luego vas a Bearer Token y pones el token eliminando las comillas y el último espacio(tiene un tiempo de vencimiento de 30 segundos). Si lo introduciste bien vas a poder hacer las modificaciones (CRUD) que quieras. Siempre obligatoriamente en la misma página en donde se realizó todo este procedimiento.
 
 - Listado:
 
